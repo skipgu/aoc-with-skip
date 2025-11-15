@@ -1,12 +1,12 @@
 <div align="center">
-  <h3>Advent of Code 2024</h3>
+  <h3>Advent of Code</h3>
   <img src="aoc-header.png" alt="AoC header picture"/>
 </div>
 
 ## 🎄 What is Advent of Code?
 
 Advent of Code is an annual programming challenge created by Eric Wastl. Each
-December, from December 1st to December 25th, a new **programming puzzle** is
+December, from December 1st to December 25th (12th starting 2025), a new **programming puzzle** is
 released **daily**. These challenges are designed to help programmers improve
 their skills, explore new programming concepts, and have fun while coding.
 
@@ -24,15 +24,18 @@ This repository is part of a structured learning experience to:
 
 ## 📋 Getting Started
 
-### Repository Structure
+### Recommended Repository Structure
 ```
 aoc/
 │
 ├── src/
-│   ├── day01/
-│   ├── day02/
+│   ├── 20xx/
+│   │     ├── day01/
+│   │     ├── day02/
+│   │     └── ...
+│   ├── 20xx/
+│   │     └── ...
 │   └── ...
-│
 ├── README.md
 └── .gitignore
 ```
@@ -51,34 +54,25 @@ aoc/
    - Create a folder for each day's solution (e.g., `day01`, `day02`, etc.)
 4. **Commit and Push**
    ```bash
-   git add .          # to add all changes files
-   git add ./src/dayX # to add a specific day
+   git add .                  # to add all changes files
+   git add ./src/year/dayX    # to add a specific day
 
    git commit -m "Add solution for Day X"
    git push origin main
    ```
 
-## 🌟 My Advent of Code Profile
+## 🌟 My Advent of Code (TODO)
 
-### Personal Information (TODO)
+- **Programming Language(s)**: [Python/JavaScript/Rust/etc.]
+- **Favorite Year(s)**: [Year]
+- **Favorite Challenge(s)**: [Year-Day X]
 
-- **Programming Language**: [Python/JavaScript/Rust/etc.]
-- **Year**: [Current Year]
-- **Total Stars Collected**: [Total Stars]
-- **Favorite Challenge**: [Day X]
-> To be fille in by the participant...
-
-## 🔗 Useful Resources
-
-- [Official Advent of Code Website](https://adventofcode.com/)
-- [Advent of Code Reddit Community](https://www.reddit.com/r/adventofcode/)
+> To be filled in by you...
 
 ## 🏆 Tracking Progress (TODO)
 
-Use the checklist below to track your daily challenges:
-
 <details>
-<summary>My progress so far...</summary>
+<summary>[Year]</summary>
 
 - [ ] Day 1
 - [ ] Day 2
@@ -108,6 +102,11 @@ Use the checklist below to track your daily challenges:
 
 </details>
 
+> Copy the year template "details" for other years
+
 ---
+
+- [Advent of Code](https://adventofcode.com/)
+- [AoC Reddit Community](https://www.reddit.com/r/adventofcode/)
 
 **Happy Coding! 🖥️🎄**
